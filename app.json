@@ -1,0 +1,55 @@
+
+
+
+{
+  "name": "KINGBOT SPAM USERBOT",
+
+  "descriptin": "A Powerful Telegram Spam Userbot based on telethon.",
+
+  "website": "https://t.me/KINGBOTOFFICIAL",
+
+  "repository": "https://github.com/KartikRajofficial7777/Multi-msg-bot-",
+
+  "logo": "https://telegra.ph/file/fc22cb568f8e82f574109.jpg",
+
+  "keywords": [
+
+    "spambot",
+
+    "telegram",
+
+    "userbot"
+
+},
+
+  "addons": [{
+
+    "plan": "heroku-postgresql",
+
+    "options": {
+
+      "version": "12"
+
+    }
+
+  }],
+
+  "buildpacks": [{
+
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+
+  },{
+
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+
+  },{
+
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+
+  },{
+
+    "url": "heroku/python"
+
+  }]
+
+}
